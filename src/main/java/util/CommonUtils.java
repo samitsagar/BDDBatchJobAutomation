@@ -9,7 +9,7 @@ public class CommonUtils {
         List<String> cmdList = new ArrayList<String>();
         // adding command and args to the list
         //cmdList.add("sh");
-        cmdList.add("/Users/b009283/Desktop/isEmailExistInMacys.command");
+        cmdList.add("/Users/samitpradhananga/Documents/Kronos/POC/BDDBatchJobAutomation/src/main/resources/isEmailExistInMacys.command");
         return cmdList;
     }
 

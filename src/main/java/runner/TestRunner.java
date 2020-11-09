@@ -9,13 +9,13 @@ import java.util.List;
 
 public class TestRunner {
 
-    public static  void main(String poc[]){
+    public static  void main(String[] poc){
         Process p;
         try {
             List<String> cmdList = new ArrayList<String>();
             // adding command and args to the list
-            cmdList.add("/Users/b009283/Desktop/isEmailExistInMacys.command");
-            ProcessBuilder pb = new ProcessBuilder("/Users/b009283/Desktop/isEmailExistInMacys.command");
+            cmdList.add("/Users/samitpradhananga/Documents/Kronos/POC/BDDBatchJobAutomation/src/main/resources/isEmailExistInMacys.command");
+            ProcessBuilder pb = new ProcessBuilder(cmdList);
             p = pb.start();
             p.waitFor();
             BufferedReader reader=new BufferedReader(new InputStreamReader(
